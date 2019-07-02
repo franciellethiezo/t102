@@ -1,0 +1,99 @@
+nav{
+    background-color: #fcac5b;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: 'Amatic SC', cursive;
+}
+
+.banner{
+height: 400px;
+background-image: url("img/img-class-banner.jpg");
+background-size: cover;
+
+}
+
+.banner h1, h4 {
+    color: black;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+
+}
+h1{
+    font-size: 44pt;
+    margin: 0;
+    padding: 40px;
+}
+
+h4{
+    font-size: 18pt;
+}
+.cadastro{
+    display: flex;
+    justify-content: center;
+    background-color: #fcb66f;
+
+}
+.cadastro div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input {
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+.botao{
+    background-color: #d6cdc3;
+    color: black;
+}
+
+.botao:hover{
+    background-color: #fcac5b;
+    color: black;
+    font-size: 30px;
+}
+
+::placeholder {
+    color: #aba59f;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    background-color: #fcac5b;
+    height: 100px;
+}
+
+.rodape div{
+    display: flex;
+    justify-content: space-around;
+
+}
+.rodape div img{
+    width: 40px;
+    height: 40px;
+}
+
+.icones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icones:hover{
+    cursor: pointer;
+}
+
